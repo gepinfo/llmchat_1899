@@ -1,0 +1,7 @@
+{
+  "name": "llmchat",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

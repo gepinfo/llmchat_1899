@@ -1,0 +1,126 @@
+<svg version="1.1" baseProfile="full" width="970.0" height="351.0" viewbox="0 0 970 351" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
+<desc >#.interface: fill=lightblue
+#.enumeration: fill=lightgreen
+#.type: fill=lightgray
+[&lt;interface&gt;organization|+created_date: { type: Date; };+created_by: { type: String; };+last_modified_by: { type: String; };+last_modified_date: { type: Date; };+realm_name: { type: String; }|]
+[&lt;interface&gt;role|+created_date: { type: Date; };+created_by: { type: String; };+last_modified_by: { type: String; };+last_modified_date: { type: Date; };+org_ids: { type: String; };+roles: { type: String; }|]
+[&lt;interface&gt;rolepermission|+created_date: { type: Date; };+created_by: { type: String; };+last_modified_by: { type: String; };+last_modified_date: { type: Date; };+role_ids: { type: String; };+data_permission: { type: String; };+definition: { type: String; };+roles: { type: String; }|]</desc>
+<g stroke-width="1.0" text-align="left" font="12pt Helvetica, Arial, sans-serif" font-size="12pt" font-family="Helvetica" font-weight="normal" font-style="normal">
+<g font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round" stroke="#33322E">
+<g stroke="transparent" fill="transparent">
+<rect x="0.0" y="0.0" height="351.0" width="970.0" stroke="none"></rect>
+</g>
+<g transform="translate(8, 8)" fill="#33322E">
+<g transform="translate(20, 20)">
+<g data-name="organization">
+<g fill="lightblue" stroke="#33322E" data-name="organization">
+<rect x="0.0" y="45.0" height="205.0" width="278.0" data-name="organization"></rect>
+<path d="M0.0 76.0 L278.0 76.0" fill="none" data-name="organization"></path>
+<path d="M0.0 242.0 L278.0 242.0" fill="none" data-name="organization"></path>
+</g>
+<g transform="translate(0, 45)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="organization">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="organization">
+<a id="../application/services/diagrams/serviceModels/organization.ts.organization" xlink:href="../application/services/diagrams/serviceModels/organization.ts"><text x="131.0" y="13.5" stroke="none" text-anchor="middle" data-name="organization">organization</text></a>
+
+</g>
+</g>
+<g transform="translate(0, 76)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="organization">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="organization">
+<text x="0.0" y="13.5" stroke="none" data-name="organization">+created_date: { type: Date</text>
+<text x="0.0" y="28.5" stroke="none" data-name="organization">}</text>
+<text x="0.0" y="43.5" stroke="none" data-name="organization">+created_by: { type: String</text>
+<text x="0.0" y="58.5" stroke="none" data-name="organization">}</text>
+<text x="0.0" y="73.5" stroke="none" data-name="organization">+last_modified_by: { type: String</text>
+<text x="0.0" y="88.5" stroke="none" data-name="organization">}</text>
+<text x="0.0" y="103.5" stroke="none" data-name="organization">+last_modified_date: { type: Date</text>
+<text x="0.0" y="118.5" stroke="none" data-name="organization">}</text>
+<text x="0.0" y="133.5" stroke="none" data-name="organization">+realm_name: { type: String</text>
+<text x="0.0" y="148.5" stroke="none" data-name="organization">}</text>
+
+</g>
+</g>
+<g transform="translate(0, 242)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="organization">
+<g transform="translate(8, 8)" fill="#33322E" data-name="organization">
+
+</g>
+</g>
+</g>
+<g data-name="role">
+<g fill="lightblue" stroke="#33322E" data-name="role">
+<rect x="318.0" y="30.0" height="235.0" width="278.0" data-name="role"></rect>
+<path d="M318.0 61.0 L596.0 61.0" fill="none" data-name="role"></path>
+<path d="M318.0 257.0 L596.0 257.0" fill="none" data-name="role"></path>
+</g>
+<g transform="translate(318, 30)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="role">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="role">
+<a id="../application/services/diagrams/serviceModels/role.ts.role" xlink:href="../application/services/diagrams/serviceModels/role.ts"><text x="131.0" y="13.5" stroke="none" text-anchor="middle" data-name="role">role</text></a>
+
+</g>
+</g>
+<g transform="translate(318, 61)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="role">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="role">
+<text x="0.0" y="13.5" stroke="none" data-name="role">+created_date: { type: Date</text>
+<text x="0.0" y="28.5" stroke="none" data-name="role">}</text>
+<text x="0.0" y="43.5" stroke="none" data-name="role">+created_by: { type: String</text>
+<text x="0.0" y="58.5" stroke="none" data-name="role">}</text>
+<text x="0.0" y="73.5" stroke="none" data-name="role">+last_modified_by: { type: String</text>
+<text x="0.0" y="88.5" stroke="none" data-name="role">}</text>
+<text x="0.0" y="103.5" stroke="none" data-name="role">+last_modified_date: { type: Date</text>
+<text x="0.0" y="118.5" stroke="none" data-name="role">}</text>
+<text x="0.0" y="133.5" stroke="none" data-name="role">+org_ids: { type: String</text>
+<text x="0.0" y="148.5" stroke="none" data-name="role">}</text>
+<text x="0.0" y="163.5" stroke="none" data-name="role">+roles: { type: String</text>
+<text x="0.0" y="178.5" stroke="none" data-name="role">}</text>
+
+</g>
+</g>
+<g transform="translate(318, 257)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="role">
+<g transform="translate(8, 8)" fill="#33322E" data-name="role">
+
+</g>
+</g>
+</g>
+<g data-name="rolepermission">
+<g fill="lightblue" stroke="#33322E" data-name="rolepermission">
+<rect x="636.0" y="0.0" height="295.0" width="278.0" data-name="rolepermission"></rect>
+<path d="M636.0 31.0 L914.0 31.0" fill="none" data-name="rolepermission"></path>
+<path d="M636.0 287.0 L914.0 287.0" fill="none" data-name="rolepermission"></path>
+</g>
+<g transform="translate(636, 0)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="rolepermission">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="rolepermission">
+<a id="../application/services/diagrams/serviceModels/rolepermission.ts.rolepermission" xlink:href="../application/services/diagrams/serviceModels/rolepermission.ts"><text x="131.0" y="13.5" stroke="none" text-anchor="middle" data-name="rolepermission">rolepermission</text></a>
+
+</g>
+</g>
+<g transform="translate(636, 31)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="rolepermission">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="rolepermission">
+<text x="0.0" y="13.5" stroke="none" data-name="rolepermission">+created_date: { type: Date</text>
+<text x="0.0" y="28.5" stroke="none" data-name="rolepermission">}</text>
+<text x="0.0" y="43.5" stroke="none" data-name="rolepermission">+created_by: { type: String</text>
+<text x="0.0" y="58.5" stroke="none" data-name="rolepermission">}</text>
+<text x="0.0" y="73.5" stroke="none" data-name="rolepermission">+last_modified_by: { type: String</text>
+<text x="0.0" y="88.5" stroke="none" data-name="rolepermission">}</text>
+<text x="0.0" y="103.5" stroke="none" data-name="rolepermission">+last_modified_date: { type: Date</text>
+<text x="0.0" y="118.5" stroke="none" data-name="rolepermission">}</text>
+<text x="0.0" y="133.5" stroke="none" data-name="rolepermission">+role_ids: { type: String</text>
+<text x="0.0" y="148.5" stroke="none" data-name="rolepermission">}</text>
+<text x="0.0" y="163.5" stroke="none" data-name="rolepermission">+data_permission: { type: String</text>
+<text x="0.0" y="178.5" stroke="none" data-name="rolepermission">}</text>
+<text x="0.0" y="193.5" stroke="none" data-name="rolepermission">+definition: { type: String</text>
+<text x="0.0" y="208.5" stroke="none" data-name="rolepermission">}</text>
+<text x="0.0" y="223.5" stroke="none" data-name="rolepermission">+roles: { type: String</text>
+<text x="0.0" y="238.5" stroke="none" data-name="rolepermission">}</text>
+
+</g>
+</g>
+<g transform="translate(636, 287)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="rolepermission">
+<g transform="translate(8, 8)" fill="#33322E" data-name="rolepermission">
+
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>
